@@ -42,7 +42,7 @@ module.exports = function(grunt) {
 	copy: {
 	  jsfrombower: {
 		src: ['bower_components/create-js/EaselJS/lib/easeljs-0.8.2.combined.js', 'bower_components/create-js/PreloadJS/lib/preloadjs-0.6.2.combined.js', 'bower_components/create-js/SoundJS/lib/soundjs-0.6.2.combined.js',
-			  'bower_components/keypress/keypress-2.1.4.min.js'],
+			  'bower_components/jquery/dist/jquery.js', 'bower_components/keypress/jquery.keypress.js'],
 		dest: 'jsdev/',
 		flatten: true,
 		expand: true,
